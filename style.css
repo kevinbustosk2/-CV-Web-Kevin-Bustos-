@@ -4,14 +4,6 @@ body {
     color: rgb(255, 41, 255);
 }
 
-nav {
-    background-image: url(/img/digital-red-circuit-lines-technology-background-design_1017-27263.avif);
-    color: #fff;
-    padding: 20px; 
-    margin: 0; 
-    
-  }
-
 
 .container {
     max-width: 800px;
@@ -32,6 +24,7 @@ nav {
 .image img {
     max-width: 20%;
     height: auto;
+    width: min-content;
 }
 
 h1,
@@ -54,6 +47,7 @@ ul {
 
 ul li {
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 img {
@@ -75,6 +69,10 @@ p {
 .container {
     background-color: #7cfd9c;
     color: #333;
+}
+
+h1 {
+    text-align: center;
 }
 
 h1,
@@ -100,4 +98,5 @@ h1{
     background-color:turquoise;
     padding: 0px;
     width: fit-content;
+    text-align: center;
 }
